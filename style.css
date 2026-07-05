@@ -49,8 +49,43 @@ nav ul {
     font-size: 20pt;
     height: 60px;
     width: 230px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 section#titulo {
     text-align: center;
+}
+#blocos {
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 45px;
+}
+#blocos p {
+    color: rgb(73, 71, 71);
+    font-family: 'Inter', sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+    margin: 0px;
+}
+.bloco {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 20pt;
+    margin: 10px;
+}
+.bloco svg {
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
