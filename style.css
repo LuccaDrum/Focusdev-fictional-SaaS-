@@ -100,6 +100,22 @@ h3 {
     margin-top: 0px;
     margin-bottom: 30px;
 }
+#img {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+img {
+    border-radius: 30px;
+}
+#divbarra #explic {
+    color: rgb(58, 57, 57);
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 14pt;
+    margin: 0px auto 20px auto;
+    font-style: italic  ;
+}
 #divbarra {
     margin: 40px auto 40px auto;
     width: 450px;
@@ -120,6 +136,7 @@ h3 {
 #barra {
     margin: 0px auto 20px auto;
     width: 400px;
+    accent-color: rgb(2, 47, 105);
 }
 h4 {
     color: black;
@@ -131,14 +148,34 @@ h4 {
 }
 .faqitem button {
     background-color: white;
+    display: flex;
+    justify-content: center;
     color: black;
     border: none;
     border-radius: 12px;
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     padding: 15px 20px;
     width: 100%;
     text-align: left;
     cursor: pointer;
+}
+#faq h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 28pt;
+    color: rgb(255, 255, 255);
+    margin: 40px auto;
+}
+.faqitem {
+    margin: 10px auto;
+}
+#faq {
+    width: 600px;
+    text-align: center;
+    margin: 10px auto;
+}
+.escondido {
+    display: none;
 }

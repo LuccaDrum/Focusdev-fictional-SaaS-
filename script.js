@@ -10,3 +10,13 @@ function atualizar() {
     valatual.innerHTML = `${valor} sessões por dia`
     res.innerHTML = `${horas}h economizadas por mês ⏱`
 }
+
+let perguntas = document.querySelectorAll('.faqitem')
+
+for (let item of perguntas) {
+    let botao = item.querySelector('button')
+    let resposta = item.querySelector('p')
+    botao.addEventListener('click', function() {
+        resposta.classList.toggle('escondido')
+    })
+}
