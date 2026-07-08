@@ -61,6 +61,7 @@ nav ul {
     height: 70px;
     width: 230px;
     border-radius: 20px;
+    cursor: pointer;
 }
 section#titulo {
     text-align: center;
@@ -178,4 +179,54 @@ h4 {
 }
 .escondido {
     display: none;
+}
+#contato h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 28pt;
+    color: rgb(255, 255, 255);
+    margin: 40px auto;
+}
+#contato a {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#contato {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    align-items: center;
+}
+footer {
+    margin-top: 100px
+}
+footer p {
+    display: flex;
+    justify-content: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin: 15px 20px; 
+    text-decoration: none;
+}
+#linkd {
+    background: rgb(15, 88, 172);
+    color: blacrgb(255, 255, 255)
+}
+#git {
+    background: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
 }
